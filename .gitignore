@@ -1,0 +1,50 @@
+# Unreal Engine specific ignores
+
+# Ignore project-specific folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Ignore user-specific settings
+*.log
+*.temp
+*.csproj
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+
+# Ignore Visual Studio Code workspace settings
+.vscode/
+
+# Ignore Mac specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
+
+# Ignore build and launch files
+Build/Windows/
+Build/Android/
+Build/Linux/
+Build/Mac/
+Build/HTML5/
+Build/iOS/
+
+# Ignore Unreal Engine launcher auto-saves and backups
+AutoSave/
+Backup/
+
+# Ignore config folder, except for default configurations
+Config/
+!Config/Default*
+
+# Ignore plugins and third-party libraries (adjust as necessary)
+Plugins/
+ThirdParty/
+
+# Ignore .gitignore file itself
+!.gitignore
